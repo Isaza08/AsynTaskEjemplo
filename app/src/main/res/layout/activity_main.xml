@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.chvai.asyntaskejemplo.MainActivity"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="177dp"
+        android:layout_height="45dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_Horizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="345dp"
+        android:layout_height="32dp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="74dp"
+        tools:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_Circular"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:visibility="invisible" />
+
+</LinearLayout>
